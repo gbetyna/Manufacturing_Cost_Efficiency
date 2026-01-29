@@ -78,95 +78,131 @@ EDA pozwoliła:
 
 ### 🗄️ Warstwa danych (SQL Server)
 
-Dane zostały załadowane do SQL Server.
-Utworzono warstwę CLEAN (dbo.cost_efficiency_clean).
-SQL pełni rolę warstwy analitycznej, gotowej do BI i raportowania.
-Skrypt: sql/01_load_clean_and_kpi.sql.
+- Dane zostały załadowane do SQL Server.
+- Utworzono warstwę CLEAN (`dbo.cost_efficiency_clean`).
+- SQL pełni rolę warstwy analitycznej, gotowej do BI i raportowania.
+
+**Skrypt:** `sql/01_load_clean_and_kpi.sql`
+
+---
 
 ### 📈 Dashboard (Power BI)
 
 Finalnym elementem projektu jest dashboard decyzyjny w Power BI, zawierający m.in.:
-KPI:
--Avg Cost per Good Unit
--Cost Improvement % vs Benchmark
 
-Analizy:
--Cost per Good Unit by Plant
--interaktywne filtrowanie (plant / line / shift – opcjonalnie)
--Dashboard odpowiada na pytania:
+**KPI:**
+- Avg Cost per Good Unit
+- Cost Improvement % vs Benchmark
 
-Jaki jest aktualny koszt jednostkowy?
-Czy koszt jest lepszy czy gorszy od benchmarku?
-Gdzie powstają największe różnice kosztowe?
+**Analizy:**
+- Cost per Good Unit by Plant
+- interaktywne filtrowanie (plant / line / shift – opcjonalnie)
+
+Dashboard odpowiada na pytania:
+- Jaki jest aktualny koszt jednostkowy?
+- Czy koszt jest lepszy czy gorszy od benchmarku?
+- Gdzie powstają największe różnice kosztowe?
+
+---
 
 ### 📌 Kluczowe wnioski biznesowe
 
-Koszt jednostkowy dobrego wyrobu jest ~27% niższy od benchmarku.
-Widoczne są różnice kosztowe pomiędzy zakładami produkcyjnymi.
-Wydajność, scrap oraz downtime mają istotny wpływ na koszt końcowy.
+- Koszt jednostkowy dobrego wyrobu jest ~27% niższy od benchmarku.
+- Widoczne są różnice kosztowe pomiędzy zakładami produkcyjnymi.
+- Wydajność, scrap oraz downtime mają istotny wpływ na koszt końcowy.
+
+---
 
 ### 🧠 Wartość projektu
 
 Projekt pokazuje:
--myślenie analityczne i kosztowe,
--umiejętność budowy pełnego pipeline’u danych,
--praktyczne wykorzystanie SQL + Power BI w analizie produkcyjnej.
+- myślenie analityczne i kosztowe,
+- umiejętność budowy pełnego pipeline’u danych,
+- praktyczne wykorzystanie SQL + Power BI w analizie produkcyjnej.
 
-### 🇬🇧 Project Description (EN)
-🎯 Project Goal
+---
 
-The goal of this project is to analyze manufacturing cost efficiency and identify key drivers of Cost per Good Unit.
+## 🇬🇧 Project Description (EN)
+
+### 🎯 Project Goal
+
+The goal of this project is to analyze manufacturing cost efficiency and identify key drivers of **Cost per Good Unit**.
+
 The project replicates a real-world analytical workflow combining Python, SQL Server, and Power BI.
 
+---
+
 ### 🧩 Project Scope
+
 The project covers a complete analytical pipeline:
--Data generation and exploratory analysis (Python)
--Data cleaning and analytical layer (SQL Server)
--Decision-making and visualization layer (Power BI)
+- Data generation and exploratory analysis (Python)
+- Data cleaning and analytical layer (SQL Server)
+- Decision-making and visualization layer (Power BI)
+
+---
 
 ### 🛠️ Tech Stack
--Python (pandas, numpy, matplotlib, seaborn)
--SQL Server (Developer Edition)
--Power BI Desktop
--Git / GitHub
+- Python (pandas, numpy, matplotlib, seaborn)
+- SQL Server (Developer Edition)
+- Power BI Desktop
+- Git / GitHub
+
+---
 
 ### 📊 Data Analysis (EDA)
-The reports/ folder contains:
--distributions, boxplots, scatter plots,
--correlation analysis,
--aggregated KPI tables (CSV).
+
+The `reports/` folder contains:
+- distributions, boxplots, scatter plots,
+- correlation analysis,
+- aggregated KPI tables (CSV).
 
 EDA was used to:
--identify cost drivers,
--validate relationships between efficiency, scrap, and downtime,
--prepare clean analytical data for BI.
+- identify cost drivers,
+- validate relationships between efficiency, scrap, and downtime,
+- prepare clean analytical data for BI.
 
-###🗄️ Data Layer (SQL Server)
-Data stored in SQL Server.
-Clean analytical table: dbo.cost_efficiency_clean.
-SQL acts as a central analytical layer.
-Script: 01_load_clean_and_kpi.sql.
+---
+
+### 🗄️ Data Layer (SQL Server)
+
+- Data stored in SQL Server.
+- Clean analytical table: `dbo.cost_efficiency_clean`.
+- SQL acts as a central analytical layer.
+
+**Script:** `01_load_clean_and_kpi.sql`
+
+---
 
 ### 📈 Power BI Dashboard
+
 The final Power BI dashboard includes:
-KPIs:
--Avg Cost per Good Unit
--Cost Improvement % vs Benchmark
--Analysis
--Cost per Good Unit by Plant
+
+**KPIs:**
+- Avg Cost per Good Unit
+- Cost Improvement % vs Benchmark
+
+**Analysis:**
+- Cost per Good Unit by Plant
 
 The dashboard answers:
--What is the current unit cost?
--Is performance better or worse than benchmark?
--Where do cost differences originate?
+- What is the current unit cost?
+- Is performance better or worse than benchmark?
+- Where do cost differences originate?
+
+---
 
 ### 📌 Key Business Insights
-Unit cost is ~27% better than benchmark.
-Cost differences are visible across plants.
-Efficiency, scrap, and downtime significantly impact total cost.
+
+- Unit cost is ~27% better than benchmark.
+- Cost differences are visible across plants.
+- Efficiency, scrap, and downtime significantly impact total cost.
+
+---
 
 ### 🧠 Project Value
+
 This project demonstrates:
--cost-focused analytical thinking,
--end-to-end data pipeline design,
--practical BI and SQL skills in a manufacturing context.
+- cost-focused analytical thinking,
+- end-to-end data pipeline design,
+- practical BI and SQL skills in a manufacturing context.
+
