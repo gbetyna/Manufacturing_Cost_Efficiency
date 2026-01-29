@@ -59,13 +59,13 @@ MANUFACTURING_COST_EFFICIENCY/
 
 
 
-## 📊 Analiza danych (EDA – Python)
+### 📊 Analiza danych (EDA – Python)
 
-W folderze reports/ znajdują się:
--rozkłady zmiennych (koszt, wydajność, czas cyklu),
--analizy porównawcze (plant, line, shift, product family),
--analizy zależności (scatter plots, korelacje),
--tabele agregujące KPI (CSV).
+W folderze `reports/` znajdują się:
+- rozkłady zmiennych (koszt, wydajność, czas cyklu),
+- analizy porównawcze (plant, line, shift, product family),
+- analizy zależności (scatter plots, korelacje),
+- tabele agregujące KPI (CSV).
 
 ---
 
