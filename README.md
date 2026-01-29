@@ -121,6 +121,9 @@ Projekt pokazuje:
 - praktyczne wykorzystanie SQL + Power BI w analizie produkcyjnej.
 
 ---
+> **Uwaga:** Plik Power BI (`.pbix`) został dołączony do repozytorium w celach portfolio.
+> Miary i wizualizacje odwzorowują rzeczywiste scenariusze analizy kosztów produkcyjnych.
+---
 
 ## 🇬🇧 Project Description (EN)
 
@@ -205,4 +208,10 @@ This project demonstrates:
 - cost-focused analytical thinking,
 - end-to-end data pipeline design,
 - practical BI and SQL skills in a manufacturing context.
+
+---
+
+> **Note:** The Power BI report (`.pbix`) is included in the repository for portfolio review.
+> Measures and visuals are designed to reflect real-world manufacturing cost analysis scenarios.
+
 
