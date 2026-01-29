@@ -1,32 +1,34 @@
-Manufacturing Cost Efficiency Analysis
+# Manufacturing Cost Efficiency Analysis
 
-End-to-End Data Analysis & BI Project
+**End-to-End Data Analysis & BI Project**
 
-🇵🇱 Opis projektu (PL)
-🎯 Cel projektu
+---
 
-Celem projektu jest analiza efektywności kosztowej produkcji oraz identyfikacja czynników wpływających na koszt jednostkowy dobrego wyrobu (Cost per Good Unit).
+## 🇵🇱 Opis projektu (PL)
+
+### 🎯 Cel projektu
+Celem projektu jest analiza efektywności kosztowej produkcji oraz identyfikacja czynników wpływających na koszt jednostkowy dobrego wyrobu (**Cost per Good Unit**).
+
 Projekt łączy analizę danych, SQL Server oraz Power BI, odwzorowując realny proces analityczny stosowany w środowisku produkcyjnym.
 
-🧩 Zakres projektu
+---
 
+### 🧩 Zakres projektu
 Projekt obejmuje pełny pipeline analityczny:
 
-Generowanie i eksploracja danych (Python)
+- Generowanie i eksploracja danych (**Python**)
+- Warstwa danych i czyszczenie (**SQL Server**)
+- Warstwa decyzyjna i wizualizacja (**Power BI**)
 
-Warstwa danych i czyszczenie (SQL Server)
+---
 
-Warstwa decyzyjna i wizualizacja (Power BI)
+### 🛠️ Technologie
+- Python (pandas, numpy, matplotlib, seaborn)
+- SQL Server (Developer Edition)
+- Power BI Desktop
+- Git / GitHub
 
-🛠️ Technologie
-
-Python (pandas, numpy, matplotlib, seaborn)
-
-SQL Server (Developer Edition)
-
-Power BI Desktop
-
-Git / GitHub
+---
 
 ## 📁 Struktura projektu
 
@@ -52,6 +54,7 @@ MANUFACTURING_COST_EFFICIENCY/
 │       ├── avg_metrics_by_line.csv
 │       └── correlation_matrix.csv
 └── README.md
+
 ```
 
 
