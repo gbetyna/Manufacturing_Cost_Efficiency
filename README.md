@@ -67,6 +67,8 @@ W folderze reports/ znajdują się:
 -analizy zależności (scatter plots, korelacje),
 -tabele agregujące KPI (CSV).
 
+---
+
 EDA pozwoliła:
 -zidentyfikować czynniki wpływające na koszt,
 -potwierdzić zależności między wydajnością, scrapem i downtime,
