@@ -70,9 +70,11 @@ W folderze `reports/` znajdują się:
 ---
 
 EDA pozwoliła:
--zidentyfikować czynniki wpływające na koszt,
--potwierdzić zależności między wydajnością, scrapem i downtime,
--przygotować dane do warstwy SQL i BI.
+- zidentyfikować czynniki wpływające na koszt,
+- potwierdzić zależności między wydajnością, scrapem i downtime,
+- przygotować dane do warstwy SQL i BI.
+
+---
 
 ### 🗄️ Warstwa danych (SQL Server)
 
