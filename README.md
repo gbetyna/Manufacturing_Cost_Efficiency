@@ -28,7 +28,7 @@ Power BI Desktop
 
 Git / GitHub
 
-📁 Struktura projektu
+## 📁 Struktura projektu
 MANUFACTURING_COST_EFFICIENCY/
 │
 ├── data/
