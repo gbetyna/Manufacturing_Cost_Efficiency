@@ -59,7 +59,7 @@ MANUFACTURING_COST_EFFICIENCY/
 
 
 
-### 📊 Analiza danych (EDA – Python)
+## 📊 Analiza danych (EDA – Python)
 
 W folderze reports/ znajdują się:
 -rozkłady zmiennych (koszt, wydajność, czas cyklu),
