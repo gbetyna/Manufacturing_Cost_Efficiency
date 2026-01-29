@@ -29,34 +29,29 @@ Power BI Desktop
 Git / GitHub
 
 ## 📁 Struktura projektu
+
 MANUFACTURING_COST_EFFICIENCY/
-│
 ├── data/
 │   └── cost_efficiency_data.csv
-│
 ├── src/
 │   ├── data_generation.py
 │   └── eda.py
-│
 ├── sql/
 │   └── 01_load_clean_and_kpi.sql
-│
 ├── power_bi/
 │   └── manufacturing_cost_efficiency.pbix
-│
 ├── reports/
 │   ├── figures/
 │   │   ├── hist_cost_per_good_unit.png
 │   │   ├── box_cost_good_by_plant.png
 │   │   ├── scatter_efficiency_vs_costgood.png
 │   │   └── corr_heatmap.png
-│   │
 │   └── tables/
 │       ├── avg_metrics_by_plant.csv
 │       ├── avg_metrics_by_line.csv
 │       └── correlation_matrix.csv
-│
 └── README.md
+
 
 📊 Analiza danych (EDA – Python)
 
