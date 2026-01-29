@@ -30,6 +30,7 @@ Git / GitHub
 
 ## 📁 Struktura projektu
 
+```text
 MANUFACTURING_COST_EFFICIENCY/
 ├── data/
 │   └── cost_efficiency_data.csv
@@ -51,6 +52,8 @@ MANUFACTURING_COST_EFFICIENCY/
 │       ├── avg_metrics_by_line.csv
 │       └── correlation_matrix.csv
 └── README.md
+```
+
 
 
 📊 Analiza danych (EDA – Python)
