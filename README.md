@@ -2,6 +2,95 @@
 
 **End-to-End Data Analysis & BI Project**
 
+## 🇬🇧 Project Description (EN)
+
+### 🎯 Project Goal
+
+The goal of this project is to analyze manufacturing cost efficiency and identify key drivers of **Cost per Good Unit**.
+
+The project replicates a real-world analytical workflow combining Python, SQL Server, and Power BI.
+
+---
+
+### 🧩 Project Scope
+
+The project covers a complete analytical pipeline:
+- Data generation and exploratory analysis (Python)
+- Data cleaning and analytical layer (SQL Server)
+- Decision-making and visualization layer (Power BI)
+
+---
+
+### 🛠️ Tech Stack
+- Python (pandas, numpy, matplotlib, seaborn)
+- SQL Server (Developer Edition)
+- Power BI Desktop
+- Git / GitHub
+
+---
+
+### 📊 Data Analysis (EDA)
+
+The `reports/` folder contains:
+- distributions, boxplots, scatter plots,
+- correlation analysis,
+- aggregated KPI tables (CSV).
+
+EDA was used to:
+- identify cost drivers,
+- validate relationships between efficiency, scrap, and downtime,
+- prepare clean analytical data for BI.
+
+---
+
+### 🗄️ Data Layer (SQL Server)
+
+- Data stored in SQL Server.
+- Clean analytical table: `dbo.cost_efficiency_clean`.
+- SQL acts as a central analytical layer.
+
+**Script:** `01_load_clean_and_kpi.sql`
+
+---
+
+### 📈 Power BI Dashboard
+
+The final Power BI dashboard includes:
+
+**KPIs:**
+- Avg Cost per Good Unit
+- Cost Improvement % vs Benchmark
+
+**Analysis:**
+- Cost per Good Unit by Plant
+
+The dashboard answers:
+- What is the current unit cost?
+- Is performance better or worse than benchmark?
+- Where do cost differences originate?
+
+---
+
+### 📌 Key Business Insights
+
+- Unit cost is ~27% better than benchmark.
+- Cost differences are visible across plants.
+- Efficiency, scrap, and downtime significantly impact total cost.
+
+---
+
+### 🧠 Project Value
+
+This project demonstrates:
+- cost-focused analytical thinking,
+- end-to-end data pipeline design,
+- practical BI and SQL skills in a manufacturing context.
+
+---
+
+> **Note:** The Power BI report (`.pbix`) is included in the repository for portfolio review.
+> Measures and visuals are designed to reflect real-world manufacturing cost analysis scenarios.
+
 ---
 
 ## 🇵🇱 Opis projektu (PL)
@@ -124,94 +213,3 @@ Projekt pokazuje:
 > **Uwaga:** Plik Power BI (`.pbix`) został dołączony do repozytorium w celach portfolio.
 > Miary i wizualizacje odwzorowują rzeczywiste scenariusze analizy kosztów produkcyjnych.
 ---
-
-## 🇬🇧 Project Description (EN)
-
-### 🎯 Project Goal
-
-The goal of this project is to analyze manufacturing cost efficiency and identify key drivers of **Cost per Good Unit**.
-
-The project replicates a real-world analytical workflow combining Python, SQL Server, and Power BI.
-
----
-
-### 🧩 Project Scope
-
-The project covers a complete analytical pipeline:
-- Data generation and exploratory analysis (Python)
-- Data cleaning and analytical layer (SQL Server)
-- Decision-making and visualization layer (Power BI)
-
----
-
-### 🛠️ Tech Stack
-- Python (pandas, numpy, matplotlib, seaborn)
-- SQL Server (Developer Edition)
-- Power BI Desktop
-- Git / GitHub
-
----
-
-### 📊 Data Analysis (EDA)
-
-The `reports/` folder contains:
-- distributions, boxplots, scatter plots,
-- correlation analysis,
-- aggregated KPI tables (CSV).
-
-EDA was used to:
-- identify cost drivers,
-- validate relationships between efficiency, scrap, and downtime,
-- prepare clean analytical data for BI.
-
----
-
-### 🗄️ Data Layer (SQL Server)
-
-- Data stored in SQL Server.
-- Clean analytical table: `dbo.cost_efficiency_clean`.
-- SQL acts as a central analytical layer.
-
-**Script:** `01_load_clean_and_kpi.sql`
-
----
-
-### 📈 Power BI Dashboard
-
-The final Power BI dashboard includes:
-
-**KPIs:**
-- Avg Cost per Good Unit
-- Cost Improvement % vs Benchmark
-
-**Analysis:**
-- Cost per Good Unit by Plant
-
-The dashboard answers:
-- What is the current unit cost?
-- Is performance better or worse than benchmark?
-- Where do cost differences originate?
-
----
-
-### 📌 Key Business Insights
-
-- Unit cost is ~27% better than benchmark.
-- Cost differences are visible across plants.
-- Efficiency, scrap, and downtime significantly impact total cost.
-
----
-
-### 🧠 Project Value
-
-This project demonstrates:
-- cost-focused analytical thinking,
-- end-to-end data pipeline design,
-- practical BI and SQL skills in a manufacturing context.
-
----
-
-> **Note:** The Power BI report (`.pbix`) is included in the repository for portfolio review.
-> Measures and visuals are designed to reflect real-world manufacturing cost analysis scenarios.
-
-
