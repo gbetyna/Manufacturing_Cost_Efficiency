@@ -1,5 +1,7 @@
 # Manufacturing Cost Efficiency Analysis
 
+![Power BI Dashboard](dashboard.png)
+
 **End-to-End Data Analysis & BI Project**
 
 ## 🇬🇧 Project Description (EN)
