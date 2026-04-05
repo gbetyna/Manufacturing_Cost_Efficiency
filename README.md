@@ -12,6 +12,8 @@ Built using Python, SQL Server, and Power BI.
 
 Key drivers analyzed: efficiency, scrap, downtime.
 
+---
+
 ### 🎯 Project Goal
 
 The goal of this project is to analyze manufacturing cost efficiency and identify key drivers of **Cost per Good Unit**.
